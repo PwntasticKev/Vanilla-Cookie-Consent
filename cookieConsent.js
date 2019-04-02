@@ -48,7 +48,26 @@
 		
 			(function () {
 				var $cPopup = $(
-					'<div class="cookie-popup hidden">\n\t\t<div class="cookie-popup--inner">\n\t\t\t<div class="container-fluid">\n\t\t\t\t<div class="flex-row align-items-center">\n\t\t\t\t\t<div class="flex-col">\n\t\t\t\t\t\t<div class="cookie-popup--massege">\n\t\t\t\t\t\t\t<p class="m-0">Cookies are used for measurement, ads and optimization. By continuing to use our site you agree to our <a href="https://www.visithoustontexas.com/privacy-policy/" target="_blank">privacy policy.</a></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="flex-col-auto pr-0">\n\t\t\t\t\t\t<div class="cookie-popup--close">\n\t\t\t\t\t\t\t<button type="button" class="btn btn-primary border-0 cookie-btn--close">accept</button>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\t\t\t\n\t\t</div>\n\t</div>'
+					'<div class="cookie-popup hidden">
+						<div class="cookie-popup--inner">
+							<div class="container-fluid">
+								<div class="flex-row align-items-center">
+									<div class="flex-col">
+										<div class="cookie-popup--massege">
+											<p class="m-0">Cookies are used for measurement, ads and optimization. By continuing to use our site you agree to our 
+												<a href="https://www.visithoustontexas.com/privacy-policy/" target="_blank">privacy policy.</a>
+											</p>
+										</div>
+									</div>
+									<div class="flex-col-auto pr-0">
+										<div class="cookie-popup--close">
+											<button type="button" class="btn btn-primary border-0 cookie-btn--close">accept</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>'
 				);
 
 				$("body").on("click", ".cookie-popup .btn", function () {
